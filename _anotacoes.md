@@ -38,6 +38,19 @@
         - Não podem conter espaços
         - Não podem ser palavras reservadas do sistema
 
+ - Nomear as variáveis conforme a função que ela executa no programa
+ - Tipos Primitivos
+    - Number
+        - Infinity
+        - NaN - Not an Number
+    - Strings
+    - Boolean
+    - Null
+    - Undefined
+    - Object
+        - Array
+    - Function
+- Comando importante para saber qual é o tipo do dado é o typeof.
 
 
 
