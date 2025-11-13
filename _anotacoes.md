@@ -151,7 +151,37 @@
 
  <a id="op-relacionais"></a>
 
+  ``` 
+   >  ------> 5 >  2 ---> true
+   <  ------> 7 <  4 ---> false
+   >= ------> 8 >= 8 ---> true
+   <= ------> 9 <= 7 ---> false
+   == ------> 5 == 5 ---> true
+   != ------> 4 != 4 ---> false
+
+   5 == '5'  ---> true
+   5 === '5' ---> false operador identidade irrestrita " Lê se 5 identico a 5 = true
+
+   ```
+
  <a id="op-logicos"></a>
+
+   !   ------> negação  = Operador Unário, apenas um operadorando 
+   &&  ------> conjunção E - AND = Operador binário dois operandos
+   ||  ------> Dijunção OU - OR  = Operador binário dois operandos
+
+   x ! true   ---> x é falso
+   x ! false  ---> x é true
+
+   x == true  && y == true   ----> true
+   x == true  && y == false  ----> false
+   x == false && y == true   ----> false
+   x == false && y == false  ----> false
+
+   x == true  || y == true   ----> true
+   x == true  || y == false  ----> true
+   x == false || y == true   ----> true
+   x == false || y == false  ----> false
 
  <a id="op-ternarios"></a>
 
