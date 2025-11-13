@@ -163,9 +163,11 @@
    5 === '5' ---> false operador identidade irrestrita " Lê se 5 identico a 5 = true
 
    ```
+   
 
  <a id="op-logicos"></a>
 
+   ```
    !   ------> negação  = Operador Unário, apenas um operadorando 
    &&  ------> conjunção E - AND = Operador binário dois operandos
    ||  ------> Dijunção OU - OR  = Operador binário dois operandos
@@ -182,18 +184,19 @@
    x == true  || y == false  ----> true
    x == false || y == true   ----> true
    x == false || y == false  ----> false
+   ```
 
- <a id="op-ternarios"></a>
-
-
-
-
+<a id="op-ternarios"></a>
 
 <a id="notas"></a>
 
 ## Notas Importantes
+ 
  - O *ECMAScript* é a versão mais padronizada do JavaScript.
  - Para rodar o JavaScript no vscode tem que instalar o node.js.
  - Em JavaScript o comentário pode ser feito com // ou /* */.
  - Ordem de Precedendia de Operadores, importante saber a ordem em que ocorre cada operação. Ex.: 5 + 3 / 2 = 6.5.
+ - Quando tem operadores aritmeticos, relacionais e lógicos a ordem deve ser:
+   - Primeiro todos aritmeticos, depois todos operadores relacionais e ai sim o lógicos.
+   - ```Ex.: a > b && b % 2 == 0``` 
 
