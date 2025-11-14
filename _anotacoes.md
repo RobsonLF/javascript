@@ -186,7 +186,28 @@
    x == false || y == false  ----> false
    ```
 
+   Precedência entre operadores aritméticos, relacionais e logicos
+
+   ```
+   | () ** / ...
+   | > < =   ...
+   | !
+   | &&
+   | ||
+   |
+   V
+   ```
+
 <a id="op-ternarios"></a>
+   
+   ```
+   ? - operador
+   : - operador
+   Ex:
+
+   media >= 7 ? 'APROVADO' : 'REPROVADO'
+   
+   ```
 
 <a id="notas"></a>
 
@@ -199,4 +220,5 @@
  - Quando tem operadores aritmeticos, relacionais e lógicos a ordem deve ser:
    - Primeiro todos aritmeticos, depois todos operadores relacionais e ai sim o lógicos.
    - ```Ex.: a > b && b % 2 == 0``` 
+ - DOM Document Object Model - 
 
