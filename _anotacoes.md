@@ -23,6 +23,8 @@
     - [Lógicos](#op-logicos)
     - [Ternários](#op-ternarios)
 
+ - [Aprendendo DOM](#dom)
+
  - []()
  - [NOTAS IMPORTANTES](#notas)
 
@@ -209,6 +211,21 @@
    
    ```
 
+<a id="dom"></a>
+
+## Aprendendo DOM
+
+### Metodos para navegar na árvore DOM
+
+ - Seletores
+   - por marca(tag) - getElementsByTagName()
+   - por id
+   - por nome
+   - por classe
+   - por seletor
+
+
+
 <a id="notas"></a>
 
 ## Notas Importantes
@@ -220,5 +237,6 @@
  - Quando tem operadores aritmeticos, relacionais e lógicos a ordem deve ser:
    - Primeiro todos aritmeticos, depois todos operadores relacionais e ai sim o lógicos.
    - ```Ex.: a > b && b % 2 == 0``` 
- - DOM Document Object Model - 
+ - DOM Document Object Model - Conjunto de objetos que tem dentro do navegador, que dá acesso aos componentes internos do site.
+   - Arvore DOM
 
