@@ -218,10 +218,10 @@
 ### Metodos para navegar na árvore DOM
 
  - Seletores
-   - por marca(tag) - getElementsByTagName()
-   - por id
-   - por nome
-   - por classe
+   - por marca(tag) - getElementsByTagName()[]
+   - por id - getElementById()
+   - por nome - getElementsByName()[]
+   - por classe - getElementsByClassName()[]
    - por seletor
 
 
@@ -238,5 +238,6 @@
    - Primeiro todos aritmeticos, depois todos operadores relacionais e ai sim o lógicos.
    - ```Ex.: a > b && b % 2 == 0``` 
  - DOM Document Object Model - Conjunto de objetos que tem dentro do navegador, que dá acesso aos componentes internos do site.
-   - Arvore DOM
+   - [Arvore DOM](/img-Aula/arvoreDOM.pngimg-Aula/arvoreDOM.png)
+     
 
