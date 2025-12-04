@@ -218,11 +218,22 @@
 ### Metodos para navegar na árvore DOM
 
  - Seletores
-   - por marca(tag) - getElementsByTagName()[]
-   - por id - getElementById()
-   - por nome - getElementsByName()[]
-   - por classe - getElementsByClassName()[]
-   - por seletor
+   - por marca(tag) - .getElementsByTagName()[]
+   - por id - .getElementById()
+   - por nome - .getElementsByName()[]
+   - por classe - .getElementsByClassName()[]
+   - por seletor - .querySelector('div.msg')
+
+ - Eventos
+   - Tudo aquilo que pode acontecer com qualquer elemento.
+     - Eventos de Mouse
+       - mouseenter
+       - mousemove
+       - mousedown
+       - mouseup
+       - click
+       - mouseout
+     - [Eventos JavaScript](https://udn.realityripple.com/docs/Web/Events)
 
 
 
@@ -238,6 +249,7 @@
    - Primeiro todos aritmeticos, depois todos operadores relacionais e ai sim o lógicos.
    - ```Ex.: a > b && b % 2 == 0``` 
  - DOM Document Object Model - Conjunto de objetos que tem dentro do navegador, que dá acesso aos componentes internos do site.
-   - [Arvore DOM](/img-Aula/arvoreDOM.pngimg-Aula/arvoreDOM.png)
+   - [Arvore DOM](img-Aula/arvoreDOM.png)
+ - Um bloco de código é envelopada dentro de {}, deve começar com function e ter um nome e pode ter parametros.
      
 
