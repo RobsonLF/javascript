@@ -24,6 +24,7 @@
     - [Ternários](#op-ternarios)
 
  - [Aprendendo DOM](#dom)
+ - [Aprendendo Condições](#Cond)
 
  - []()
  - [NOTAS IMPORTANTES](#notas)
@@ -234,6 +235,29 @@
        - click
        - mouseout
      - [Eventos JavaScript](https://udn.realityripple.com/docs/Web/Events)
+
+
+<a id="Cond"></a>
+
+## Aprendendo sobre Condições 
+
+### Condições Simples
+```
+   if(condição){
+     true
+   }
+```
+### Condições Compostas
+```
+   if(condição){
+     true
+   }else{
+     false
+   }
+```
+### Condições Aninhadas
+### Condições Múltiplas
+### Exercícios Propostos
 
 
 
