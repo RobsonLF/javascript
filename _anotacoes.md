@@ -256,7 +256,30 @@
    }
 ```
 ### Condições Aninhadas
+```
+  if (condicao1){
+    bloco1
+  }else if(condicao2){
+    bloco2
+  }else{
+    bloco3
+  }
+```
 ### Condições Múltiplas
+
+```
+switch(expressao){
+  case valor1:
+    bloco1
+    break
+  case valor2:
+    bloco2
+    break
+  default:
+    bloco3
+    break
+}
+```
 ### Exercícios Propostos
 
 

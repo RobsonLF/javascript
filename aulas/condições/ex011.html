@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origem</title>
+</head>
+<body>
+    <h1>Descobrind sua Origem</h1>
+    Qual é o país que você nasceu? <input type="text" name="pais" id="txtpais">
+    <input type="button" value="Verificar" name="Verificar" onclick="verificar()">
+    <div id="resposta"></div>
+
+    <script>    
+        function verificar(){
+            var pais = window.document.getElementById('txtpais')
+            var resposta = window.document.getElementById('resposta')
+            if (pais.value == 'Brasil'){
+                resposta.innerHTML += `<p>Seu país de origem é o <strong>${pais.value}.</strong> Logo você é Brasileira!!!</p>`
+            } else{
+                resposta.innerHTML += `<p>Seu país de origem é o <strong>${pais.value}.</strong> Logo você é Estrangeiro!!!</p>`
+            }
+        }
+    </script>
+</body>
+</html>
